@@ -1,0 +1,167 @@
+* { 
+  margin: 0;
+}
+
+
+body { 
+  font-family: "Anton", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  max-width:1200px;
+  
+  margin: 0 auto;
+  font-size:25px;
+background-color:darkseagreen;
+}
+
+nav { 
+  width:1200px;
+  height:350px;
+ 
+  background-image: url(../image.kouti/IMG_5331.jpeg);
+  background-repeat:no-repeat;
+  background-size: 100%;
+  background-position: center;
+ border-radius: 30px 15px 30px 30px ;
+ 
+
+
+}
+ul {
+  width: 800px;
+  display:flex; 
+
+  padding-left: 0;
+  background-color:bisque;
+  text-align: center;
+  border-radius:30px;
+
+}
+li { 
+  list-style:none;
+  width: 100%;
+
+}
+nav a { 
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  color:darkseagreen;
+}
+
+
+nav a:hover::after { 
+  content:url(../sozai/矢印ボタン\　左1.png);
+}
+nav #flex {
+  width:100%;
+  display: flex; 
+justify-content: flex-end;
+}
+
+#headertext { 
+  background-color:bisque;
+  width:50%;
+  text-align:center;
+  margin: 0 auto;
+  padding: 20px 0;
+  position:relative;
+  top: 100px;
+  box-shadow: 2px 3px 4px rgb(245, 255, 250);
+  border-radius: 20px;
+
+}
+#headertext div { 
+  width: 600px;
+text-align: center;
+
+}
+#hedadertext p, h1 { 
+
+
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 30px;
+ 
+}
+#headertext p{ 
+  margin-right: 15px;
+  line-height: 30px;
+}
+
+/* 　自己紹介　 */
+
+#jikosyoukai { 
+  margin-top: 80px;
+display: flex;
+flex-direction: column;
+position: relative;
+
+
+}
+.backcut { 
+  background-image:url(../image.kouti/IMG_6435.jpeg);
+  background-repeat: no-repeat;
+  border-radius:90px 90px 0 0;
+  background-position: left center;
+  background-size:120%;
+  box-shadow: 1.5px 3px 5px black;
+}
+.backcut div { 
+  margin-left: 30px;
+}
+ h2 {
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 1;
+  color: aliceblue;
+ 
+  
+}
+ h2 > span { 
+  color:cadetblue;
+  display: block;
+  
+  margin-left: 200px;
+  text-decoration: none;
+ 
+}
+
+#syoukai { 
+  display: flex;
+ margin-top:10px;
+  background-color:azure;
+  border-radius: 20px;
+  box-shadow: 1px 1px 4px black;
+}
+#syoukai > div{ 
+  display: flex;
+  width:100%;
+  flex-direction:column;
+ 
+  
+}
+
+#syoukai img { 
+  width:50%;
+  border-radius:150px;
+  
+}
+#syashin { 
+  display: flex;
+  margin-top:80px;
+}
+#jinnsei { 
+  margin-top: 80px;
+
+}
+#jinnsei .backcut { 
+  background-image: url(../image.kouti/IMG_1134.jpeg);
+  background-position:center 25%;
+  background-repeat: no-repeat;
+  
+
+}
+#jinnsei .backcut span { 
+margin-left:300px;
+}

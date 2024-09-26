@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "sozai",
+			"path": "../sozai"
+		},
+		{
+			"name": "image.kouti",
+			"path": "../image.kouti"
+		},
+		{
+			"name": "HTML CSS",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
