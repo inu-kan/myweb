@@ -1,71 +1,60 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>僕の今まで</title>
     <meta charset="utf-8">
-    <meta description="僕が生きてきてよかったものや出来事を自己紹介を入れながら紹介していきます">
-   <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-
+    <meta name="description" content="おいしいコーヒーのお店">
+    <meta nane="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cofee Shop ~inui~</title>
   </head>
   <body>
     <header>
-      <nav>
-        <div id="flex">
+     <div id="headerflex">
+      <div id="headerleft">
+        <p>~INUI COFFE~</p>
+      <h1>
+        <a href="index.html">
+          <img src="img/テイクアウトのコーヒーのアイコン1.png">
+        
+        </a>
+      </h1>
+      </div>
+
+      <div id="headerright">
+      <div id="navmenu">
         <ul>
-          <li><a class="navrink" href="index.html#jikosyoukai">自己紹介</a></li>
-          <li><a class="navrink" href="index.html#jinnsei">人生</a></li>
-          <li><a class="navrink" href="index.html#fuukei">好きな場所</a></li>
-          <li><a class="navrink" href="index.html#zatudan">雑談</a></li>
+          <li><a href="index.html#coffe">Coffe</a></li>
+          <li><a href="index.html#said">SaidMenu</a></li>
+          <li><a href="index.html#place">Place</a></li>
+          <li><a href="online.html">OnlineMenu</a></li>
         </ul>
+      </div>
+      <form>
+        <input type="text" name="searchbar" value="商品入力">
+        <input type="submit" name="search" value="検索">
+      </form>
+      </div>
+     </div>
+
+    </header>
+    <article>
+      <section id="coffe">
+        <div id="coffeheader">
+          <h1>～Coffe～</h1>
         </div>
-        <div id="headertext">
+       
+        <div class="menudiv">
+          
           <div>
-          <p>～24年目～</p>
-          <h1>成長録</h1>
+            <p>どれにするか迷ったらこちらをおすすめします<br>
+              こだわりの豆を使い、丁寧に炒っております</p>
+            <img src="img/24410078_s.jpg" alt="ブレンドコーヒー">
           </div>
         </div>
 
-   
-      </nav>
- </header>
- <!-- 自己紹介　-->
 
- <section id="jikosyoukai">
-  <div class="backcut">
-    <div>
-      <h2>自己<br>
-        <span>紹介</span>
-      </h2>
-    </div>
-  </div>
-  <!-- 左の自己紹介用 -->
-  <div id="syoukai">
-    <div>
-    <p>僕の名前は、<span class="line">乾 凌雅</span>といいます!今年の11月で24歳になります!<br>
-    今日はこのページを閲覧していただきありがとうございます！！このサイトで僕の２４年の歴史を<br>
-  少しでも皆さんに知っていただきたくまだまだ下手ですが自分なりにつくりました！！！！</p>
-   <div id="syashin">
-    <img src="../image.kouti/IMG_9379.jpeg" alt="自分の写真">
-    <img src="../sozai/sports_protein_man.png" alt="プロテインのイラスト">
-   </div>
-  </div>
-  </div>
- 
-</section>
-<!-- 自分の人生の話　 -->
-<section id="jinnsei">
-  <div class="backcut">
-    <div>
-    <h2>これまでの<br>
-      <span>人生</span>
-    </h2>
-    </div>
-  </div>
-  
-</section>
-    
+      </section>
+    </article>
+   
   </body>
 </html>
