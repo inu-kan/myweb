@@ -1,0 +1,154 @@
+html { 
+  font-size:100%;
+}
+header { 
+  max-width:1000px;
+  margin: 0 auto;
+  
+}
+ h1 { 
+  width:150px;
+  margin:0 ;
+ 
+ }
+ h1 img { 
+  width:100%;
+
+
+ }
+ article { 
+  max-width: 1000px;
+  margin:0 auto;
+ }
+ .wrap {
+  margin:100px auto 0 auto; 
+  max-width:80%;
+  height:400px;
+  padding:50px 5px 70px 5px
+
+ }
+ #index { 
+  width:100%;
+  background-color:#c7c7c780;
+  
+  
+ 
+ }
+ h2{ 
+  width:150px;
+  margin:0px auto 40px auto;
+  
+ }
+ #index div {
+  width:400px;
+  margin:0 auto; 
+  border: 1px solid #000000;
+  padding:10px 130px 10px 130px;
+  
+ }
+ li { 
+  margin-bottom:30px;
+ }
+#photo { 
+  width:80%;
+  margin: 100px auto 0 auto;
+}
+
+ #flex { 
+  display: flex;
+  max-width:100%;
+ 
+
+ }
+ #flex #left,#right { 
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+ 
+
+ } 
+ #left { 
+  padding-right:10px;
+ }
+ #flex img { 
+width:100%;
+
+ }
+ #detail { 
+  width: 80%;
+ margin:100px auto 0 auto;
+ padding: 100px 50px 130px 50px;
+  background-color: #c7c7c780;
+ }
+ #detail h2{
+ margin:40px auto 0 auto;
+ }
+ #detailflex { 
+  display: flex;
+  width:100%;
+  
+ 
+ }
+ #detailright { 
+  border-left: 1px solid #000000;
+  margin:40px 0 0 50px;
+  padding-left: 20px;
+  height:110px;
+ }
+ dd { 
+  margin:0;
+ }
+ #detailright div { 
+
+  width:100%;
+
+ }
+ footer { 
+  width:800px;
+  margin:100px auto 0 auto;
+  text-align: center;
+
+ }
+ footer p { 
+width:100%;
+ }
+ @media screen and (max-width: 1024px){
+  #main { 
+    max-width: 100%;
+  }
+  #main img{ 
+    max-width: 100%;
+  }
+  
+  #index div { 
+    max-width: 100%;
+    padding:0;
+  }
+  li { 
+    margin-bottom:20px;
+  }
+  #flex { 
+    flex-direction: column;
+  }
+  #detail { 
+    padding:50px 0;
+  }
+  #detailflex { 
+    flex-direction: column;
+    
+  }
+  dl { 
+    width:120px;
+    margin:0 auto;
+  }
+  #detailright { 
+    border-top: 1px solid #000000;
+   border-left:none;
+   }
+   footer { 
+    max-width: 100%;
+   }
+ 
+ }
+ 
